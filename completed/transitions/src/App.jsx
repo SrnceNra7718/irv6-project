@@ -39,18 +39,10 @@ export default function App() {
       </select>
       <div className={`loading-container ${isPending ? "loading" : ""}`}>
         {" "}
-        <span className="spinner">⚽️</span>
+        <span className="spinner">😫</span>
       </div>
       <div>
-        <Score
-          isPending={isPending}
-          homeImage={score.homeImage}
-          homeName={score.homeName}
-          awayImage={score.awayImage}
-          awayName={score.awayName}
-          home={score.home}
-          away={score.away}
-        />
+        <Score {...score} />
       </div>
     </div>
   );
