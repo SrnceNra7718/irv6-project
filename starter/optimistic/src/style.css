@@ -3,10 +3,6 @@ body {
   font-family: "Short Stack", cursive;
 }
 
-h1 {
-  color: #14d117;
-}
-
 /* Minimal CSS Reset */
 * {
   margin: 0;
